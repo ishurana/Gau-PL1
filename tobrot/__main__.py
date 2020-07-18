@@ -137,7 +137,7 @@ if __name__ == "__main__" :
     #
     upload_document_handler = MessageHandler(
         upload_document_f,
-        filters=Filters.command(["uploadvideo@LeechToVideoBot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["uploadfile@LeechToFileBot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(upload_document_handler)
 
