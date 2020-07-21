@@ -92,6 +92,18 @@
       "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
       "required": false
     },
+    "STATUS_COMMAND": {
+      "description": "Enter your custom status command like /status@urgroupname and so on. Default is /status",
+      "required": false
+    },
+    "SAVE_THUMBNAIL": {
+      "description": "Enter your custom savethumbnail command like /savethumbnail@urgroupname and so on. Default is /savethumbnail",
+      "required": false
+    },
+    "CLEAR_THUMBNAIL": {
+      "description": "Enter your custom clearthumbnail command like /clearthumbnail@urgroupname and so on. Default is /clearthumbnail",
+      "required": false
+    },
     "GET_SIZE_G": {
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
       "required": false
